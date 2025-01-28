@@ -1,3 +1,173 @@
+
+
+body {
+    margin: 0;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.Section1 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+nav {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    padding: 10px 10px;
+    background-color: #f8f8f8;
+}
+nav img {
+    height: 50px;
+}
+nav ul {
+    display: flex;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+nav ul li {
+    margin-left: 20px;
+    margin-top: 10px;
+}
+nav ul li a {
+    text-decoration: none;
+    color: #000;
+    font-weight: light;
+}
+nav ul li a:hover {
+    color: #00B172;
+}
+.spotify {
+    position: relative;
+    width: 100%;
+    max-width: 100%;
+
+}
+.spotify img {
+    width: 100%;
+    height: 600px; 
+}
+.spotify h1, .spotify p {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: #FFF;
+    text-align: center;
+   
+}
+
+.spotify h1 {
+    top: 40%; 
+}
+.spotify p {
+    top: 60%; 
+    margin-top: 20px; 
+}
+.section2 {
+    padding: 50px;
+}
+.section2 h2 {
+    text-align: center;
+    text-decoration: underline;
+    text-decoration-color: green;
+    margin-bottom: 50px;
+}
+
+.inline-block-center {
+    text-align: center;
+}
+
+.inline-block-center div {
+    display: inline-block;
+    text-align: left;
+}
+
+.flex-center {
+    display: flex;
+    justify-content: center;
+}
+
+.container {
+    display: flex;
+    justify-content: space-around; /* Distributes the divs evenly */
+    align-items: flex-start; /* Aligns items to the top */
+    flex-wrap: wrap; /* Allows wrapping if needed */
+}
+
+.container div {
+    flex: 1;
+    margin: 10px;
+    text-align: center;
+}
+
+.container img {
+    height: 50px; 
+    width: auto;
+}
+
+.container h3 {
+    color: green;
+    font-weight: bold;
+}
+.section3 {
+    background-color: green;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    position: relative;
+    height: 600px;
+}
+
+.section3 {
+    background-color: #00B172;
+    color:#fff;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    position: relative;
+  
+}
+
+.section3 h2 {
+    text-decoration: underline;
+    text-decoration-color: #fff;
+}
+
+.left-side {
+    flex: 1;
+    margin-right: 20px;
+}
+
+.left-side h3, .left-side p {
+    margin: 10px 0;
+}
+
+.left-side span {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.left-side img {
+    margin: 10px;
+    
+}
+
+.spotify-app {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+}
+
+.spotify-app img {
+    width: 300px;
+    height: auto;
+    margin: 20px;
+}
 /*
 Colors:
 
